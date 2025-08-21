@@ -67,6 +67,20 @@ hr {
   height: 2px;
   margin: 20px;
   text-align: center;
+}.carouselExampleIndicators {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.carousel-item {
+max-height: 500px;
+object-fit: cover;
+}
+
+.blurred {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(5px) brightness(0.9);
 }
 
 /* Creditos */
