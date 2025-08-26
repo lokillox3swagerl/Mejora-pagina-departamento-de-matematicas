@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 
 .end-page {
   background-color: #333333;
@@ -69,13 +69,14 @@ hr {
   height: 2px;
   margin: 20px;
   text-align: center;
-}.carouselExampleIndicators {
+}
+.carouselExampleIndicators {
   max-width: 1200px;
   margin: 0 auto;
 }
 .carousel-item {
-max-height: 500px;
-object-fit: cover;
+  max-height: 500px;
+  object-fit: cover;
 }
 
 /*
@@ -91,17 +92,17 @@ object-fit: cover;
   position: absolute;
   top: 10%;
   left: 15%;
-  z-index: 10; 
-  background: rgba(33, 32, 32, 0.5); 
-  color: rgb(235, 222, 222); 
+  z-index: 10;
+  background: rgba(33, 32, 32, 0.5);
+  color: rgb(235, 222, 222);
   padding: 15px 25px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 20px;
   font-weight: 600;
   line-height: 1.4;
   text-align: center;
   border-radius: 8px;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   max-width: 80%;
 }
 
