@@ -9,15 +9,54 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
-    <title>Document</title>
+    <link rel="icon" type="image/svg+xml" href="../images/favicon copia.ico" />
+    <link rel="stylesheet" href="../css/contacto.css" />
+
+    <title>Contacto</title>
   </head>
   <body>
     <div id="navbar"></div>
+    <div class="container contenedor-contacto d-flex">
+      <h1 class="title">Contacto</h1>
+      <hr class="title-divider" />
+
+      <div class="info-container p-3 mb-5 rounded">
+        <ul>
+          <li><strong>Departamento de Matemáticas</strong></li>
+          <li><i>Director: Dr. Marco Corgini Videla</i></li>
+          <li><i>Secretaria: Mabel Moraga Rojas</i></li>
+          <li><i>Teléfono: (56)51-2-204102</i></li>
+          <li>
+            <a href="mailto:demat@userena.cl"
+              >Correo electrónico: demat@userena.cl</a
+            >
+          </li>
+
+          <hr />
+
+          <li><strong>Magíster en Matemáticas</strong></li>
+          <li><i>Director: Dr. Marco Corgini Videla</i></li>
+          <li>
+            <a href="mailto:mcorgini@userena.cl"
+              >Correo electrónico: mcorgini@userena.cl</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer id="footer"></footer>
     <script>
       fetch("navbar.html")
         .then((response) => response.text())
         .then((data) => {
           document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
+    <script>
+      fetch("footer.html")
+        .then((response) => response.text())
+        .then((data) => {
+          document.getElementById("footer").innerHTML = data;
         });
     </script>
     <script
