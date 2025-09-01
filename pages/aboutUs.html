@@ -3,59 +3,188 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sobre Nosotros</title>
+    <link rel="icon" type="image/svg+xml" href="../images/favicon copia.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/aboutUs.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html">
-          <img
-            src="./images/icon-uls.png"
-            alt="Logo"
-            width=""
-            height="70px"
-            class="d-inline-block align-text-top"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link" href="#">Inicio</a>
-            <a class="nav-link" href="#">Noticias</a>
-            <a class="nav-link" href="#">Contacto</a>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-            <a class="nav-link" href="#">Sobre nosotros</a>
+    <!-- Navbar reutilizado -->
+    <div id="navbar"></div>
+    <div class="hero-banner">
+      <img src="../images/slide8.jpg" alt="Hero Banner" class="hero-img">
+
+      <div class="hero-content">
+        <div class="hero-left">
+          <h1>Sobre Nosotros</h1>
+        </div>
+        <div class="hero-right">
+          <h2>Nuestra misión es transformar la enseñanza y la investigación en Matemáticas y Estadística, formando líderes capaces de innovar y contribuir al desarrollo de la comunidad.</h2>
+        </div>
+      </div>
+    </div>
+    <main class="container my-5">
+      <div class="page-header text-center">
+        <h1 class="display-4">Sobre Nosotros</h1>
+        <hr class="title-divider">
+      </div>
+
+      <div class="entry-about mb-5">
+        <p>El Departamento de Matemáticas de la Universidad de La Serena es la Unidad básica que reúne y administra las actividades asociadas a las disciplinas de Matemática y Estadística desarrollándolas en el contexto del quehacer académico que le es propio, esto es, en los siguientes ámbitos: Docencia, Investigación, Extensión, Vinculación con el Medio y Gestión, manteniendo además una constante preocupación por el perfeccionamiento de su cuerpo académico.</p>
+        <p>Se destacan las siguientes líneas de acción: Investigación en Matemáticas Puras y Aplicadas; Didáctica de la Matemática a través de Innovaciones metodológicas en la enseñanza de la disciplina; Estas dos líneas, aún cuando tienen carácter específico, interaccionan naturalmente entre sí, habiendo surgido como consecuencia directa de los intereses e iniciativas de la academia, promovidas y apoyadas constantemente por el Departamento de Matemáticas en el contexto de su propio plan de desarrollo y su articulación con el de la Facultad de Ciencias y el Plan de Desarrollo Institucional.</p>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-6 d-flex align-items-stretch">
+          <div class="content-card">
+            <h2 class="card-title"><i class="bi bi-bullseye"></i> Misión</h2>
+            <blockquote class="highlight-quote">
+              En concordancia con la  Universidad de La Serena y en particular con  la Facultad de Ciencias, el Departamento de Matemáticas, tiene por misión  enseñar, crear y divulgar conocimiento de excelencia en las disciplinas que le son propias, es decir, Matemática, Estadística y Computación.
+            </blockquote>
+            <ul class="styled-list">
+              <li>Desde esta perspectiva coopera, con todas las carreras y grados académicos a los que les da servicios, en la formación de profesionales, graduados e investigadores al más alto nivel, con creatividad, sentido crítico y capacidad de auto sustentación en su desarrollo personal y social y en el aprendizaje continuo.</li>
+              <li>En conformidad a la citada misión, el departamento tiene la obligación ineludible e indelegable de:</li>
+              <li>Administrar la dictación de todas las asignaturas que se requiera en los planes de estudios conducentes a títulos profesionales y/o programas de postgrado que imparta la Universidad, dentro del ámbito de sus competencias.</li>
+              <li>Desarrollar investigación pura y aplicada, postulando a proyectos con financiamiento tanto  interno como externo, participando en seminarios y congresos, como expositores o invitados y generando publicaciones científicas de reconocimiento nacional e internacional.</li>
+              <li>Desarrollar la Educación Matemática al más alto nivel posible, constituyéndose en un grupo que investiga y forma profesionales de la Educación Matemática, que explora y aplica metodologías innovadoras de enseñanza.</li>
+              <li>Desarrollar una labor de extensión y difusión de las matemáticas, la estadística y la computación en forma permanente, a nivel de profesorado y alumnos de enseñanza media, con objeto de acercar la actividad científica y computación a los estudiantes de la región.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-flex align-items-stretch">
+          <div class="content-card">
+            <h2 class="card-title"><i class="bi bi-eye-fill"></i> Visión</h2>
+            <blockquote class="highlight-quote">
+              Ser una unidad de carácter eminentemente científico dedicada a la enseñanza y cultivo de las disciplinas de Matemáticas, Estadística y Computación, interactuando activamente con sus similares en otras regiones, el país y el extranjero; dotada de una clara vocación de servicio a la comunidad en la que está inserta, un profundo sentido ético y social; y preocupada preferentemente de las metodologías de enseñanza de dichas disciplinas.
+            </blockquote>
+            <ul class="styled-list">
+              <li>Desde esta perspectiva coopera, con todas las carreras y grados académicos a los que les da servicios, en la formación de profesionales, graduados e investigadores al más alto nivel, con creatividad, sentido crítico y capacidad de auto sustentación en su desarrollo personal y social y en el aprendizaje continuo.</li>
+              <li>Ser el referente que permite la interrelación institucional y regional con centros de investigación en las líneas comprometidas.</li>
+              <li>Ser la instancia capacitada para responder a las exigencias de formación de investigadores en Matemáticas en la región de  Coquimbo.</li>
+              <li>Ser la instancia académica de mayor prestigio en la formación de pedagogos en Matemáticas y Computación, tendientes al mejoramiento de la Educación Matemática de la región de Coquimbo, abocada a la generación de nuevas ideas y de conocimiento con miras a mejorar en el ámbito de la enseñanza de las Matemáticas.</li>
+              <li>Estar preparada para mantener una  interrelación permanente con académicos de otras universidades, tanto nacionales e internacionales con el fin de generar proyectos en conjunto.</li>
+              <li>Estar constituida por  un grupo capacitado para responder a las exigencias de la comunidad educativa en Matemáticas, Estadística y Computación.</li>
+              <li>Ser capaz de formar personas con las competencias necesarias para desenvolverse ética y participativamente en un mundo globalizado, en el que la comprensión de sus deberes y derechos con la sociedad internacional, implique su reconocimiento como ciudadanos del mundo.</li>
+              <li>Ser capaz de realizar las actividades propias de la gestión del conocimiento con una sólida fundamentación teórica y práctica, que contribuyan a la formación de personas autónomas, creativas y solidarias con capacidad para integrarse al mundo laboral, con principios y un comportamiento ético que favorezcan el mejoramiento de la calidad de vida de la comunidad local, nacional y mundial.</li>
+            </ul>
           </div>
         </div>
       </div>
-    </nav>
+    </main>
+    <footer>
+    <!-- Parte final de lapagina-->
+    <div class="end-page container-fluid">
+      <div class="elements-row">
+        <div class="col secciones-finales">
+          <p class="Title-end">FACULTADES</p>
+          <li><a href=""> Ciencias</a></li>
+          <li><a href=""> Ciencias Sociales, Empresariales y Jurídicas</a></li>
+          <li><a href=""> Humanidades</a></li>
+          <li><a href=""> Ingeniería</a></li>
+        </div>
+        <div class="col secciones-finales">
+          <p class="Title-end">PROGRAMAS DE ESTUDIO</p>
+          <li><a href="" class="Title-end"> Pregrado</a></li>
+          <li><a href=""> Carreras y Licenciaturas</a></li>
+          <li><a href="" class="Title-end"> Postgrados</a></li>
+          <li><a href=""> Diplomados, Magisters y doctorados</a></li>
+        </div>
+        <div class="col secciones-finales">
+          <p class="Title-end">DEPENDENCIAS UNIVERSITARRIAS</p>
+          <li><a href=" "> Campus Andrés Bellos</a></li>
+          <li><a href=" "> Campus Coquimbo</a></li>
+          <li><a href=" "> Campus Enrique Molina Garmendia</a></li>
+          <li><a href=" "> Campus Ignacio Domeyko</a></li>
+          <li><a href=" "> Campus Isabel Bongard</a></li>
+          <li><a href=" "> Campus Limarí</a></li>
+          <li><a href=" "> Campues Mistraliano</a></li>
+          <li><a href=" "> Centro de Extensión</a></li>
+          <li><a href=" "> Departamento de Música </a></li>
+          <p class="Title-end">Radio Universitaria</p>
+          <li>
+            <a href="https://www.userena.cl/radio-universitaria.html"
+              >Radio ULS</a
+            >
+          </li>
+        </div>
+        <div class="col secciones-finales">
+          <p class="Title-end">PLATAFORMAS - MI ULS</p>
+          <li><a href=""> Of.de Educación a Distancia</a></li>
+          <li><a href="">Moodle.ULS </a></li>
+          <li><a href=""> Plataforma Docente Integrada[Phoenix]</a></li>
+          <li><a href=""> Directorio de Personas ULS</a></li>
+          <li><a href="">Soporte</a></li>
+          <p class="Title-end">IDENTIDAD VISUAL ULS</p>
+          <li><a href="https://www.userena.cl/logos-uls">Logo ULS</a></li>
+          <li><a href="/logos_Astro.php">Logo departamento Astronomia </a></li>
+        </div>
+      </div>
+
+      <div class="separacion">
+        <hr />
+      </div>
+
+      <!-- Logos Finales de la  pagina -->
+
+      <div class="container flex-final">
+        <div class="col col-img">
+          <img
+            src="./images/icon-uls.png"
+            alt=""
+            class="img-fluid logo-astro"
+          />
+        </div>
+        <div class="col texto-final">
+          <div class="row justify-content-center">
+            <p class="contacto">CONTACTA POR UNIDADES</p>
+            <button
+              type="button"
+              class="btn btn-small btn-outline-secondary"
+              onclick="window.location.href='https://www.userena.cl/contactos-uls.html';"
+            >
+              VER AQUÍ
+            </button>
+          </div>
+          <div class="row"></div>
+          <div class="row">
+            <p class="contacto">Benavente 980 -La Serena -Chile</p>
+          </div>
+          <div class="row">
+            <p class="contacto">51 2 20 4000</p>
+          </div>
+        </div>
+        <div class="col col-img">
+          <img
+            src="images/navbar/cna-5.png"
+            alt=""
+            class="img-fluid logo-acreditacion"
+          />
+        </div>
+      </div>
+    </div>
+    <div class="creditos">
+      <p class="copyright">
+        © <span id="copyright-year">2024</span> Derechos reservados<br />
+        Desarrollado por el Departamento de Astronomia de la Universidad de la
+        Serena
+      </p>
+    </div>
+  </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    ></script>
+    <script>
+      // Reutilizar el mismo navbar
+      fetch("navbar.html")
+        .then((res) => res.text())
+        .then((data) => {
+          document.getElementById("navbar").innerHTML = data;
+        });
+    </script>
   </body>
 </html>
