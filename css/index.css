@@ -9,15 +9,6 @@
   object-fit: cover;
 }
 
-/*
-.carousel-item img {
-  display: block;
-  width: 100%;                                            no me convencio la idea!---carrusel entero borroso.
-  height: 100%;
-  object-fit: cover;
-  filter: blur(5px) brightness(0.9); 
-}
-*/
 .carousel-text {
   position: absolute;
   top: 10%;
@@ -25,64 +16,13 @@
   z-index: 10;
   background: rgba(33, 32, 32, 0.5);
   color: rgb(235, 222, 222);
-  padding: 15px 25px;
+  padding: 5px 5px;
   font-family: "Poppins", sans-serif;
-  font-size: 20px;
+  font-size: clamp(0.6rem, 2vw, 2rem);
   font-weight: 600;
   line-height: 1.4;
   text-align: center;
-  border-radius: 8px;
+  border-radius: 6px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   max-width: 80%;
-}
-
-.blurred {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: blur(5px) brightness(0.9);
-}
-
-/* Creditos */
-
-.creditos {
-  background-color: #061651;
-}
-.copyright {
-  padding: 1rem 1rem;
-  color: #888888;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-}
-@media (width < 1023px) {
-  .flex-final {
-    flex-direction: column;
-  }
-}
-@media (width < 427px) {
-  .Titulo {
-    text-align: center;
-  }
-  .subtitulo {
-    text-align: justify;
-    font-size: calc(5px + 2vw);
-    margin-top: 0.5rem;
-  }
-  .Titulo-indoA {
-    font-size: calc(20px + 4vw) !important;
-  }
-  .desarrollo {
-    font-size: calc(10px + 1vw);
-  }
-  .logo-astro {
-    width: 100%; /* Make the image width match the container width */
-    height: auto; /* Let the image height adjust proportionally */
-    object-fit: cover;
-  }
-  .logo-acreditacion {
-    width: 100%; /* Make the image width match the container width */
-    height: auto; /* Let the image height adjust proportionally */
-    object-fit: cover;
-  }
 }
