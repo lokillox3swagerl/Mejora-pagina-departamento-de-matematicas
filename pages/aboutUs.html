@@ -182,22 +182,6 @@
       </div>
     </main>
     <footer id="footer"></footer>
-    <script>
-      fetch("footer.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("footer").innerHTML = data;
-        });
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-      // Reutilizar el mismo navbar
-      fetch("navbar.html")
-        .then((res) => res.text())
-        .then((data) => {
-          document.getElementById("navbar").innerHTML = data;
-        });
-    </script>
+    <script src="nav-footer.js"></script>
   </body>
 </html>
