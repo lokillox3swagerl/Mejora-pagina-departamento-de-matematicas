@@ -45,16 +45,6 @@
 
 /* Creditos */
 
-.creditos {
-  background-color: #061651;
-}
-.copyright {
-  padding: 1rem 1rem;
-  color: #888888;
-  font-size: 14px;
-  font-weight: 300;
-  margin: 0;
-}
 @media (width < 1023px) {
   .flex-final {
     flex-direction: column;
