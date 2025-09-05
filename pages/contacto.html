@@ -9,56 +9,147 @@
       integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
     <link rel="icon" type="image/svg+xml" href="../images/favicon copia.ico" />
     <link rel="stylesheet" href="../css/contacto.css" />
 
     <title>Contacto</title>
   </head>
   <body>
+    <!-- Navbar (inyectado) -->
     <div id="navbar"></div>
-    <div class="container contenedor-contacto d-flex">
-      <h1 class="title">Contacto</h1>
-      <hr class="title-divider" />
 
-      <div class="info-container p-3 mb-5 rounded">
-        <ul>
-          <li><strong>Departamento de Matemáticas</strong></li>
-          <li><i>Director: Dr. Marco Corgini Videla</i></li>
-          <li><i>Secretaria: Mabel Moraga Rojas</i></li>
-          <li><i>Teléfono: (56)51-2-204102</i></li>
-          <li>
-            <a href="mailto:demat@userena.cl"
-              >Correo electrónico: demat@userena.cl</a
-            >
-          </li>
+    <main class="container page-wrap">
+      <!-- Encabezado -->
+      <section class="page-header p-4 p-md-5">
+        <div class="row align-items-center g-4">
+          <div class="col-12 col-lg-8">
+            <h1 class="page-title display-5 mb-2">Contacto</h1>
+            <hr class="title-divider" />
+            <p class="lead mb-3 text-secondary">
+              Encuentra la información de contacto del Departamento de
+              Matemáticas y del programa de Magíster en Matemáticas de la
+              Universidad de La Serena.
+            </p>
+          </div>
+        </div>
+      </section>
 
-          <hr />
+      <section class="tarjetas-contactos">
+        <div class="row g-4">
+          <!-- Departamento de Matemáticas -->
+          <div class="col-12 col-lg-6 mb-4">
+            <div class="card info-card h-100">
+              <div class="card-header d-flex align-items-center gap-3">
+                <i class="bi bi-building"></i>
+                <div>
+                  <h2 class="h5 mb-0">Departamento de Matemáticas</h2>
+                  <small class="text-secondary">Universidad de La Serena</small>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item px-0">
+                    <div class="label">Director</div>
+                    <div>Dr. Marco Corgini Videla</div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="label">Secretaría</div>
+                    <div>Mabel Moraga Rojas</div>
+                  </li>
+                  <li
+                    class="list-group-item px-0 d-flex align-items-center justify-content-between"
+                  >
+                    <div>
+                      <div class="label">Teléfono</div>
+                      <a
+                        class="link-underline link-underline-opacity-0"
+                        href="tel:+56512204102"
+                        >(56) 51 2 204102</a
+                      >
+                    </div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="label">Correo electrónico</div>
+                    <a href="mailto:demat@userena.cl" class="fw-semibold"
+                      >demat@userena.cl</a
+                    >
+                  </li>
+                </ul>
 
-          <li><strong>Magíster en Matemáticas</strong></li>
-          <li><i>Director: Dr. Marco Corgini Videla</i></li>
-          <li>
-            <a href="mailto:mcorgini@userena.cl"
-              >Correo electrónico: mcorgini@userena.cl</a
-            >
-          </li>
-        </ul>
-      </div>
-    </div>
+                <div class="contact-actions d-flex gap-2 mt-3">
+                  <a class="btn btn-primary" href="mailto:demat@userena.cl"
+                    ><i class="bi bi-envelope-fill me-2"></i>Enviar correo</a
+                  >
+                  <a
+                    class="btn btn-outline-secondary"
+                    href="#"
+                    aria-disabled="true"
+                    ><i class="bi bi-geo-alt me-2"></i>Ubicación
+                    (próximamente)</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Magíster en Matemáticas -->
+          <div class="col-12 col-lg-6 mb-4">
+            <div class="card info-card h-100">
+              <div class="card-header d-flex align-items-center gap-3">
+                <i class="bi bi-mortarboard"></i>
+                <div>
+                  <h2 class="h5 mb-0">Magíster en Matemáticas</h2>
+                  <small class="text-secondary">Dirección de Postgrado</small>
+                </div>
+              </div>
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item px-0">
+                    <div class="label">Director</div>
+                    <div>Dr. Marco Corgini Videla</div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="label">Coordinador Académico</div>
+                    <div>Dr. Jaime Castillo Chará</div>
+                  </li>
+                  <li class="list-group-item px-0">
+                    <div class="label">Correo electrónico</div>
+                    <a
+                      href="mailto:magister.matematicas@userena.cl"
+                      class="fw-semibold"
+                      >magister.matematicas@userena.cl</a
+                    >
+                  </li>
+                </ul>
+
+                <div class="contact-actions d-flex gap-2 mt-3">
+                  <a
+                    class="btn btn-primary"
+                    href="mailto:magister.matematicas@userena.cl"
+                    ><i class="bi bi-envelope-fill me-2"></i>Enviar correo</a
+                  >
+                  <a
+                    class="btn btn-outline-secondary"
+                    href="#"
+                    aria-disabled="true"
+                    ><i class="bi bi-info-circle me-2"></i>Más información</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer (inyectado) -->
     <footer id="footer"></footer>
-    <script>
-      fetch("navbar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("navbar").innerHTML = data;
-        });
-    </script>
-    <script>
-      fetch("footer.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("footer").innerHTML = data;
-        });
-    </script>
+    <script src="nav-footer.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
       integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
