@@ -22,22 +22,7 @@
     </main>
 
     <footer id="footer"></footer>
-<!--    footer  -->
-    <script>
-      fetch("navbar.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("navbar").innerHTML = data;
-        });
-    </script>
-
-    <script>
-      fetch("footer.html")
-        .then((response) => response.text())
-        .then((data) => {
-          document.getElementById("footer").innerHTML = data;
-        });
-    </script>
+    <script src="nav-footer.js"></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -51,4 +36,3 @@
     ></script>
   </body>
 </html>
-
