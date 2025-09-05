@@ -1,5 +1,8 @@
 {
-  "rewrites": [
-    { "source": "/", "destination": "/pages/index.html","permanent": true }
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/pages/index.html"
+    }
   ]
 }
