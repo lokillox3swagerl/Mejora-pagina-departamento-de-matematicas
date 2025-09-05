@@ -7,7 +7,7 @@
 .title-divider {
   width: 80px;
   height: 4px;
-  background-color: #0d6efd;
+  background-color: #0d6efd !important;
   border: 0;
   opacity: 1;
   margin: 1rem auto;
@@ -20,7 +20,12 @@
   padding: 20px;
 }
 .info-container {
-  margin-top: 1.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1.5rem;
   background-color: rgba(255, 255, 255, 0.618);
   box-shadow: 1px 2px 20px #888888;
+  min-width: 600px;
 }
