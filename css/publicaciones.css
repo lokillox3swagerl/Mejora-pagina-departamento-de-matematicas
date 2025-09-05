@@ -1,0 +1,79 @@
+/* Hero banner */
+.hero-banner {
+  position: relative;
+  width: 100%;
+  height: 670px;
+  overflow: hidden;
+}
+
+.hero-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+
+.hero-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease forwards;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+.hero-subtitle {
+  max-width: 700px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+/* Publicaciones */
+.pub-box {
+  background: #002D72;
+  color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.pub-box:hover {
+  transform: translateY(-5px);
+}
+
+/* Animación */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.titulo-pub{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.titulo-pub h1{
+  display: inline-block;
+  position: relative;
+  font-weight: 600;
+}
+
+.titulo-pub h1::after{
+  content: "";
+  display: block;
+  width: 150px;
+  height: 4px;
+  background-color: #007bff;
+  margin: 8px auto 0;
+  border-radius: 2px; 
+}

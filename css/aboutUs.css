@@ -203,21 +203,24 @@ main p {
 }
 
 .page-header {
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
-.page-header .display-4 {
+.page-header h1{
   font-weight: 600;
   color: #061651;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0.5rem;
 }
 
-.title-divider {
-  width: 80px;
+.page-header h1::after {
+  content: "";
+  display: block;
+  width: 150px;
   height: 4px;
-  background-color: #0d6efd;
-  border: 0;
-  opacity: 1;
-  margin: 1rem auto;
+  background-color: #007bff;
+  margin: 0.5rem auto 0 auto;
 }
 
 .content-card {
@@ -247,7 +250,7 @@ main p {
 .card-title .bi {
   margin-right: 1rem;
   font-size: 1.8rem;
-  color: #0d6efd;
+  color: #007bff;
 }
 
 .highlight-quote {
@@ -256,7 +259,7 @@ main p {
   font-weight: 500;
   color: #333;
   padding-left: 1.5rem;
-  border-left: 4px solid #0d6efd;
+  border-left: 4px solid #007bff;
   margin: 0 0 1.5rem 0;
 }
 
