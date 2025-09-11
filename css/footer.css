@@ -25,8 +25,6 @@
 }
 .Title-end {
   color: white !important;
-  font-weight: 500;
-  font-size: 14px;
 }
 .desarrollo {
   font-weight: 300;
@@ -109,4 +107,12 @@ hr {
   font-size: 14px;
   font-weight: 300;
   margin: 0;
+}
+
+.footer-text {
+  color: rgb(206, 206, 206) !important;
+  transition: color 0.2s ease;
+}
+.footer-text:hover {
+  color: aquamarine !important;
 }
